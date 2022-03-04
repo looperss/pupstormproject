@@ -13,6 +13,7 @@
     $remark = $_POST["remark"];
     $createPerson = $_POST["createPerson"];
     $createDate = $_POST["createDate"];
+    $study = 1;
 
     $dbManage = new DbManage();
     $sqlTxt = "INSERT INTO inventory(invId, funcId, invCode, invName, invSpecies, invClassId," .
