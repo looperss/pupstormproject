@@ -1,0 +1,1 @@
+// document.getElementById("createDate").value = new Date().toDateInputValue();
