@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-    echo "这是内嵌在html里的php222222222"
+    echo "这是内嵌在html里的php22222222244444444444444444"
 ?>
 <form action="service/inventoryService.php" method="post">
     <div>invId<input name="invId"></div>
