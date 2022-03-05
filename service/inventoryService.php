@@ -35,8 +35,8 @@
 
     $result = $dbManage->excuteSqlTxt($sqlTxt);
 
-//    if($result == true){
-//        header("location:first.php");
-//    }else{
-//        header("location:second.php");
-//    }
+    if($result == true){
+        header("location:../secondPhp.php");
+    }else{
+        header("location:../firstPhp.php");
+    }
