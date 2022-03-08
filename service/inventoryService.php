@@ -29,14 +29,16 @@
                                                                                                     . $lengthInMM . "' ,'"
                                                                                                     . $remark . "' ,'"
                                                                                                     . $createPerson . "' ,'"
-                                                                                                    . $createDate . "' )";
+                                                                                                    . $createDate . "')";
 //    $sqlTxt = "INSERT INTO inventory(invId, gwDiff) VALUE('" . $invId . "','"
 //                                                                . $gwDiff . "')";
+
+    echo $sqlTxt;
 
     $result = $dbManage->excuteSqlTxt($sqlTxt);
 
     if($result == true){
         header("location:../secondPhp.php");
     }else{
-        header("location:../firstPhp.php");
+//        header("location:../firstPhp.php");
     }
